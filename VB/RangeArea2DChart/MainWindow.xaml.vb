@@ -39,13 +39,10 @@ Namespace RangeArea2DChart
 		Public Property Time() As DateTime
 		Public Property Value1() As Double
 		Public Property Value2() As Double
-'INSTANT VB NOTE: The variable time was renamed since Visual Basic does not handle local variables named the same as class members well:
-'INSTANT VB NOTE: The variable value1 was renamed since Visual Basic does not handle local variables named the same as class members well:
-'INSTANT VB NOTE: The variable value2 was renamed since Visual Basic does not handle local variables named the same as class members well:
-		Public Sub New(ByVal time_Conflict As DateTime, ByVal value1_Conflict As Double, ByVal value2_Conflict As Double)
-			Me.Time = time_Conflict
-			Me.Value1 = value1_Conflict
-			Me.Value2 = value2_Conflict
+		Public Sub New(ByVal time As DateTime, ByVal value1 As Double, ByVal value2 As Double)
+			Me.Time = time
+			Me.Value1 = value1
+			Me.Value2 = value2
 		End Sub
 	End Class
 End Namespace
