@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeArea2DChart", "RangeArea2DChart\RangeArea2DChart.csproj", "{299AA332-62F2-4D6B-BCA3-852223D1CADD}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeArea2DChart", "RangeArea2DChart\RangeArea2DChart.Net5.csproj", "{299AA332-62F2-4D6B-BCA3-852223D1CADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
